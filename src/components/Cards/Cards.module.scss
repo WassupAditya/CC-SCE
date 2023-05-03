@@ -1,0 +1,19 @@
+$radius :10px;
+.badge{
+    top:10px;
+    right: 20px;
+    font-size: 17px;
+}
+.cards{
+    border: 2px solid #0e5de7 ;
+    border-radius: $radius;
+}
+.img{
+    border-radius: $radius $radius 0px 0px ;
+}
+
+@media (max-width: 576px){
+    .input{
+        width: 80% ;
+    }
+}
